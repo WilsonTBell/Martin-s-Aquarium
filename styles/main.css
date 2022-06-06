@@ -1,0 +1,85 @@
+.fishList {
+    display: flex;
+    justify-content:space-evenly;
+    flex-flow: row wrap;
+    row-gap: 10px;
+    width: 75%;
+}
+
+.fish__image{
+    width: 150px;
+
+
+}
+
+.fishCard {
+    text-align: center;
+    border: solid salmon;
+    background-color:brown;
+    width: 25%;
+    border-radius: 10%;
+    padding-top: 5px;
+}
+
+.lifeList{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-flow: column;
+    background-color: darkgoldenrod;
+    border: solid black;
+    width: 25%;
+    border-radius: 10%;
+    column-gap: 1px;
+  
+}
+
+body{
+    background-color: burlywood;
+}
+
+.header1{
+    text-align: center;
+    background-color:cadetblue;
+    border: solid salmon;
+    width: 75%;
+
+}
+
+.header2{
+    text-align: center;
+}
+
+.fishAndTricks{
+    display: flex;
+
+}
+
+.location__image{
+width: 100px;
+}
+
+.locationList{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.locationCard{
+    background-color: cornflowerblue;
+    border-radius: 10%;
+    border: solid black;
+    text-align: center;
+    padding-top: 5px;
+    width: 10%
+}
+
+.quoteSection{
+    background-color:greenyellow;
+}
+
+.quoteCard{
+    padding-bottom: 10px;
+}
+
+
